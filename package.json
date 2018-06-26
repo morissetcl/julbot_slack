@@ -1,0 +1,18 @@
+{
+    "scripts": {
+        "start": "node audiobot.js",
+    },
+    "name": "slack-audiobot",
+    "version": "0.1.0",
+    "description": "A slack audio feedback bot",
+    "dependencies": {
+        "dotenv": "^6.0.0",
+        "fs": "",
+        "slack-client": "1.4.1",
+        "winsay": "0.0.5",
+        "zip-array": "^1.0.1"
+    },
+    "devDependencies": {
+        "webpack": "^4.12.1"
+    }
+}
