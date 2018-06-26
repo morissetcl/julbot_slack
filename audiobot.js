@@ -1,4 +1,3 @@
-const PORT = process.env.PORT || 5000
 var exec = require('child_process').exec;
 var Slack = require('slack-client');
 var fs = require('fs');
@@ -207,4 +206,4 @@ slack.on('message', function(message) {
     }
 });
 
-slack.login().listen(PORT, () => console.log('Listening on ${ PORT }'));
+slack.login();
