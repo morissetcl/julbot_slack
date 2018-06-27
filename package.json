@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "start": "node audiobot.js"
+        "start": "supervisor audiotbot.js"
     },
     "name": "slack-audiobot",
     "version": "0.1.0",
